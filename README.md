@@ -31,23 +31,25 @@ Ganache (for local blockchain testing)
 ## Installation
 Clone the Repository:
 
-bash
+```bash
 git clone https://github.com/Zhanbatyr06/Blockchain_4.git
 cd Blockcahin_4
+```
 Install Dependencies:
 
-bash
+   ```bash
 npm install hardhat
+```
 Deploy Smart Contracts:
 
-bash
+   ```bash
 npx hardhat run scripts/deploy.js --network ganache
-Compile Smart Contracts:
+```
 
-bash
-Копировать
-Редактировать
+Compile Smart Contracts:
+   ```bash
 npx hardhat compile
+```
 Usage
 1. Connect Your Wallet
 Open the marketplace in your browser.
@@ -78,12 +80,13 @@ The inventory count will be adjusted accordingly.
 ![alt text](<Screenshots/Снимок экрана 2025-02-05 171431.png>)
 ![alt text](<Screenshots/Снимок экрана 2025-02-05 171533.png>)
 ![alt text](<Screenshots/Снимок экрана 2025-02-05 171639.png>)
+![alt text](<Screenshots/Снимок экрана 2025-02-05 171646.png>)
 
 
 
 ## References
-Connecting to MetaMask with Vanilla JS
-OpenZeppelin Wizard
+- [Connecting to MetaMask with Vanilla JS](https://docs.web3js.org/guides/dapps/metamask-vanilla/)
+- [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/)
 
 ## Members
 Moldabek Zhanbatyr (2317)
